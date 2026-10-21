@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prachi | Aspiring Data Analyst</title>
+<style>
+:root{
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#f7f8fb;--surface:#ffffff;--text:#1b1f2a;--muted:#5b6475;--accent:#3b5bdb;--border:#e2e6ee;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0f1218;--surface:#181c25;--text:#eef1f7;--muted:#a1a9b8;--accent:#8aa2ff;--border:#262c38;color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#0f1218;--surface:#181c25;--text:#eef1f7;--muted:#a1a9b8;--accent:#8aa2ff;--border:#262c38;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--border);z-index:5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0;flex-wrap:wrap;gap:8px}
+nav .logo{font-weight:700;color:var(--text)}
+nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav ul a{color:var(--muted);font-size:.95rem}
+section{padding:56px 0}
+h1{font-size:clamp(2rem,6vw,3.2rem);line-height:1.15;margin:0 0 12px}
+h2{font-size:1.5rem;margin:0 0 20px}
+.hero p{color:var(--muted);max-width:600px;font-size:1.1rem}
+.btn{display:inline-block;padding:10px 20px;border-radius:8px;background:var(--accent);color:var(--bg);font-weight:600;margin:8px 10px 0 0}
+.btn.alt{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.btn:hover{text-decoration:none;opacity:.9}
+.tags{display:flex;flex-wrap:wrap;gap:10px;padding:0;list-style:none;margin:0}
+.tags li{background:var(--surface);border:1px solid var(--border);padding:6px 14px;border-radius:999px;font-size:.95rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px}
+.card h3{margin:0 0 6px;font-size:1.1rem}
+.card p{color:var(--muted);margin:0 0 12px;font-size:.95rem}
+.status{font-size:.8rem;color:var(--muted)}
+footer{border-top:1px solid var(--border);padding:24px 0;color:var(--muted);font-size:.9rem;text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="logo" href="#top">Prachi</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+  <section class="hero">
+    <h1>Hi, I’m Prachi.<br>I turn data into insights.</h1>
+    <p>B.Tech CSE student skilled in data analysis, Excel, Python, and visualization, with web development and marketing skills to build and share my work. Looking for a data analyst internship.</p>
+    <a class="btn" href="#projects">See my projects</a>
+    <a class="btn alt" href="#contact">Get in touch</a>
+  </section>
+
+  <section id="about">
+    <h2>About me</h2>
+    <p>I’m a B.Tech Computer Science and Engineering student at Punjabi University, Patiala, focused on data analysis. I enjoy cleaning messy data, finding patterns, and presenting them clearly with charts and dashboards. My web development and marketing skills help me build and share my work and understand the business questions behind the numbers. I learn quickly, ask good questions, and I’m looking for an internship where I can apply and grow these skills.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <h3 style="font-size:1rem;color:var(--muted);margin:0 0 10px">Data &amp; analytics</h3>
+    <ul class="tags">
+      <li>Data Analysis</li><li>Data Cleaning</li><li>Data Visualization</li><li>Data Interpretation</li><li>MS Excel</li><li>Pivot Tables</li><li>VLOOKUP</li><li>Google Sheets</li><li>Python</li><li>MySQL</li><li>Google Analytics</li>
+    </ul>
+    <h3 style="font-size:1rem;color:var(--muted);margin:24px 0 10px">Web development</h3>
+    <ul class="tags">
+      <li>HTML</li><li>CSS</li><li>JavaScript</li><li>jQuery</li><li>Bootstrap</li><li>React</li><li>Vue.js</li><li>Node.js</li><li>PHP</li><li>WordPress</li><li>Shopify</li><li>Flutter</li><li>Figma</li><li>Java</li>
+    </ul>
+    <h3 style="font-size:1rem;color:var(--muted);margin:24px 0 10px">Marketing &amp; communication</h3>
+    <ul class="tags">
+      <li>SEO</li><li>Social Media Marketing</li><li>Content Writing</li><li>Content Marketing</li><li>Lead Generation</li><li>Business Development</li><li>Market Research</li><li>Canva</li><li>MS PowerPoint</li><li>English (Spoken &amp; Written)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Personal portfolio</h3>
+        <p>This site: a responsive page built with HTML and CSS, with light and dark mode.</p>
+        <span class="status">Live &middot; HTML, CSS</span>
+      </article>
+      <article class="card">
+        <h3>Sales dashboard</h3>
+        <p>An Excel dashboard using pivot tables and charts to show sales by region and month.</p>
+        <span class="status">Planned &middot; Excel, Pivot Tables</span>
+      </article>
+      <article class="card">
+        <h3>Data cleaning project</h3>
+        <p>Clean a messy public dataset, fix errors and duplicates, and document each step.</p>
+        <span class="status">Planned &middot; Python, Excel</span>
+      </article>
+      <article class="card">
+        <h3>Data visualization report</h3>
+        <p>Analyze a public dataset and present charts with key insights and recommendations.</p>
+        <span class="status">Planned &middot; Python, Google Sheets</span>
+      </article>
+      <article class="card">
+        <h3>Website traffic analysis</h3>
+        <p>Analyze visitor data from this site with Google Analytics and suggest SEO improvements.</p>
+        <span class="status">Planned &middot; Google Analytics, SEO</span>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>I’d love to hear about internship opportunities.</p>
+    <a class="btn" href="mailto:gargprachi431@gmail.com">gargprachi431@gmail.com</a>
+    <a class="btn alt" href="https://github.com/prachigarg-cse">GitHub</a>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">&copy; 2026 Prachi</div>
+</footer>
+</body>
+</html>
